@@ -8,18 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		F3085B711BF549F0009CF9D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3085B701BF549F0009CF9D8 /* AppDelegate.swift */; };
-		F3085B731BF549F0009CF9D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3085B721BF549F0009CF9D8 /* ViewController.swift */; };
+		F3085B731BF549F0009CF9D8 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3085B721BF549F0009CF9D8 /* SongViewController.swift */; };
 		F3085B751BF549F0009CF9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3085B741BF549F0009CF9D8 /* Assets.xcassets */; };
 		F3085B781BF549F0009CF9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3085B761BF549F0009CF9D8 /* Main.storyboard */; };
+		F3085B831BF54AA6009CF9D8 /* SpotilastPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3085B821BF54AA6009CF9D8 /* SpotilastPanelController.swift */; };
+		F3085B851BF55CE9009CF9D8 /* LastWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3085B841BF55CE9009CF9D8 /* LastWebView.swift */; };
+		F3085B871BF55F15009CF9D8 /* control.js in Resources */ = {isa = PBXBuildFile; fileRef = F3085B861BF55F15009CF9D8 /* control.js */; };
+		F311CD921BF7CFB400317751 /* HoverableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311CD911BF7CFB400317751 /* HoverableView.swift */; };
+		F3E10C6D1BF67BFC00F63CAB /* JSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E10C6C1BF67BFC00F63CAB /* JSWebView.swift */; };
+		F3E10C6F1BF6821400F63CAB /* TrackWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E10C6E1BF6821400F63CAB /* TrackWebView.swift */; };
+		F3E10C711BF6833500F63CAB /* ArtistWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E10C701BF6833500F63CAB /* ArtistWebView.swift */; };
+		F3E10C741BF68C8500F63CAB /* LoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E10C731BF68C8500F63CAB /* LoveButton.swift */; };
+		F3E10C761BF68CAC00F63CAB /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E10C751BF68CAC00F63CAB /* PlayButton.swift */; };
+		F3E10C7A1BF7BAD100F63CAB /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E10C791BF7BAD100F63CAB /* ArtView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3085B6D1BF549F0009CF9D8 /* Spotilast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotilast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3085B701BF549F0009CF9D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3085B721BF549F0009CF9D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3085B721BF549F0009CF9D8 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
 		F3085B741BF549F0009CF9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3085B771BF549F0009CF9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3085B791BF549F0009CF9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3085B821BF54AA6009CF9D8 /* SpotilastPanelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotilastPanelController.swift; sourceTree = "<group>"; };
+		F3085B841BF55CE9009CF9D8 /* LastWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastWebView.swift; sourceTree = "<group>"; };
+		F3085B861BF55F15009CF9D8 /* control.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = control.js; sourceTree = "<group>"; };
+		F311CD911BF7CFB400317751 /* HoverableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HoverableView.swift; path = UI/HoverableView.swift; sourceTree = "<group>"; };
+		F3E10C6C1BF67BFC00F63CAB /* JSWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSWebView.swift; sourceTree = "<group>"; };
+		F3E10C6E1BF6821400F63CAB /* TrackWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackWebView.swift; sourceTree = "<group>"; };
+		F3E10C701BF6833500F63CAB /* ArtistWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistWebView.swift; sourceTree = "<group>"; };
+		F3E10C731BF68C8500F63CAB /* LoveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoveButton.swift; path = UI/LoveButton.swift; sourceTree = "<group>"; };
+		F3E10C751BF68CAC00F63CAB /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayButton.swift; path = UI/PlayButton.swift; sourceTree = "<group>"; };
+		F3E10C791BF7BAD100F63CAB /* ArtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtView.swift; path = UI/ArtView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,13 +72,39 @@
 		F3085B6F1BF549F0009CF9D8 /* Spotilast */ = {
 			isa = PBXGroup;
 			children = (
+				F311CD931BF7D0AF00317751 /* Views */,
+				F3E10C721BF68C6E00F63CAB /* UI */,
+				F3085B861BF55F15009CF9D8 /* control.js */,
 				F3085B701BF549F0009CF9D8 /* AppDelegate.swift */,
-				F3085B721BF549F0009CF9D8 /* ViewController.swift */,
+				F3085B821BF54AA6009CF9D8 /* SpotilastPanelController.swift */,
+				F3085B721BF549F0009CF9D8 /* SongViewController.swift */,
+				F3085B841BF55CE9009CF9D8 /* LastWebView.swift */,
+				F3E10C6E1BF6821400F63CAB /* TrackWebView.swift */,
+				F3E10C701BF6833500F63CAB /* ArtistWebView.swift */,
+				F3E10C6C1BF67BFC00F63CAB /* JSWebView.swift */,
 				F3085B741BF549F0009CF9D8 /* Assets.xcassets */,
 				F3085B761BF549F0009CF9D8 /* Main.storyboard */,
 				F3085B791BF549F0009CF9D8 /* Info.plist */,
 			);
 			path = Spotilast;
+			sourceTree = "<group>";
+		};
+		F311CD931BF7D0AF00317751 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3E10C791BF7BAD100F63CAB /* ArtView.swift */,
+				F311CD911BF7CFB400317751 /* HoverableView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F3E10C721BF68C6E00F63CAB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F3E10C731BF68C8500F63CAB /* LoveButton.swift */,
+				F3E10C751BF68CAC00F63CAB /* PlayButton.swift */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3085B751BF549F0009CF9D8 /* Assets.xcassets in Resources */,
+				F3085B871BF55F15009CF9D8 /* control.js in Resources */,
 				F3085B781BF549F0009CF9D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,8 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3085B731BF549F0009CF9D8 /* ViewController.swift in Sources */,
+				F3085B731BF549F0009CF9D8 /* SongViewController.swift in Sources */,
+				F3E10C6D1BF67BFC00F63CAB /* JSWebView.swift in Sources */,
+				F3E10C761BF68CAC00F63CAB /* PlayButton.swift in Sources */,
+				F3085B831BF54AA6009CF9D8 /* SpotilastPanelController.swift in Sources */,
+				F3085B851BF55CE9009CF9D8 /* LastWebView.swift in Sources */,
 				F3085B711BF549F0009CF9D8 /* AppDelegate.swift in Sources */,
+				F3E10C741BF68C8500F63CAB /* LoveButton.swift in Sources */,
+				F3E10C711BF6833500F63CAB /* ArtistWebView.swift in Sources */,
+				F3E10C7A1BF7BAD100F63CAB /* ArtView.swift in Sources */,
+				F311CD921BF7CFB400317751 /* HoverableView.swift in Sources */,
+				F3E10C6F1BF6821400F63CAB /* TrackWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +329,7 @@
 				F3085B7E1BF549F0009CF9D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
